@@ -1,6 +1,9 @@
 # BDAD
 Base de Dados
+Inclui : Fichas Práticas com resolução ; Exames e Testes ; Projeto
 
--3 Entregas do Projeto
--Fichas Práticas com resolução
--Exames e Testes
+Projeto : 
+
+Exame : 
+
+Nota final : 
