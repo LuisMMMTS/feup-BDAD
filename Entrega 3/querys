@@ -1,0 +1,28 @@
+query 1: obter todos os costumers que num certo periodo de tempo fizeram pelo menos uma compra e se o fizeram, o numero de compras que fizeram nesse periodo. Isto pode ser util para estatisticas por exemplo para testar as datas em que se vende mais
+
+
+query 2: obter toda a purchase history de um cliente associado a um user incluindo o total price de cada order e as datas das mesmas. util para ver se um cliente está ativo e sugerir produtos
+
+
+query 3: obter produtos menos vendidos. util para fazer promoções
+
+
+query 4: comparar o numero de compras para cada produto, o numero de orders feita quando é aplicada uma promoção e quando não é, e as datas de cada promoção
+
+
+query 5:top 10 costumers com maior taxa review/compra
+
+
+query 6:tabela para obter vendas de cada produto e overall rating
+
+
+query 7:encontrar as datas de promoção de um produto especiffico e o valor da promoção
+
+
+query 8:calcular quanto cada cliente poupou com os descontos que aproveitou
+
+
+query 9:metodo de pagamento preferido para compras superiores a um certo valor
+
+
+query 10:quantas vezes um mesmo produto foi comprado por um mesmo cliente (quantas vezes um cliente comprou um produto 
