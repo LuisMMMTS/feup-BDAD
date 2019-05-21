@@ -2,10 +2,9 @@
 .headers on
 .nullvalue nullvalue
 
+--update order total price
 
-DROP TRIGGER IF EXISTS calculateTotalPrice;
-
-CREATE TRIGGER calculateTotalPrice
+CREATE TRIGGER calculateOrderPrice
 AFTER INSERT ON QuantityOfProduct
 BEGIN
 UPDATE Orders
