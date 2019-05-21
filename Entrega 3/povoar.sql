@@ -106,80 +106,80 @@ INSERT INTO ProductDiscount(id,discount,startDate, finishDate)
 INSERT INTO ProductDiscount(id,discount,startDate, finishDate) 
 	VALUES (7, 0, '2015-01-18', '2016-03-21');		
 	
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10020,'3 Ralados P/Gratinar 200 G','Cold Meats',4.75,'True',0, 6);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10021,'Alheira  180G','Cold Meats',12.99,'True',0, 7);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10022,'Alheira  200 G','Cold Meats',5.90,'False',1, 7);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10023,'Alheira De Galo  180G','Cold Meats',8.49,'False',0, 6);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10024,'Alheira De Vinhais Igp  200 G','Cold Meats',25.99,'False',0, 6);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10025,'Alheira  170 G','Cold Meats',29.49,'True',1, 9);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10026,'Alheira Com Cogumelos 200 G','Cold Meats',15.59,'False',0, 9);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10027,'Alheira Com Queijo 200 G','Cold Meats',32.49,'False',0, 9);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10028,'Alheira De Bacalhau Emb. 200 G','Cold Meats',5.59,'False',0, 8);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10029,'Alheira De Mirandela Igp 200 G','Cold Meats',19.99,'True',0, 8);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10030,'Alheira Light 200 G','Cold Meats',1.89,'True',0, 8);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10100, 'Macbook Air Gold', 'Laptops', 2000.89, 'True', 2, 0);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10101, 'Macbook Air Gold 13', 'Laptops', 1285.99, 'False', 3, 3);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10102, 'Macbook Air Silver 13', 'Laptops', 1910.89, 'True', 0, 0);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10103, 'Macbook Air Silver', 'Laptops', 900, 'True', 0, 3);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10104, 'Macbook Air Spgrey', 'Laptops', 780.99, 'True', 5, 3);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10105, 'Macbook Air Spgrey', 'Laptops', 2500, 'False', 0, 3);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10106, 'Macbook Pro I5 128Gb', 'Laptops', 1000.19, 'True', 2, 2);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10107, 'Macbook Pro I5 8Gb', 'Laptops', 3200.92, 'False', 1, 2);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10108, 'Macbook Pro I5 8Gb128 Silver', 'Laptops', 1200.49,'False',0, 2);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10109, 'Macbook Pro Silver', 'Laptops', 1300.99, 'False', 7, 1);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 	
-	VALUES (10010,'Batatas Fritas Rodelas 150 G', 'Snacks', 1.99, 'True', 5, 12);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 	
-	VALUES (10011,'Batatas Fritas Rodelas 90 G', 'Snacks', 1.39, 'False', 6, 12);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10013,'Batatas Fritas Palha 200 G', 'Snacks', 2.19, 'False', 0, 10);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10014,'Batatas Fritas Palha 400 G', 'Snacks', 4.15, 'True', 7, 10);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10015,'Batatas Fritas Receita Tradicional 200 G', 'Snacks', 2.45, 'True', 2, 14);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10016,'Batatas Fritas Receita Tradicional 400 G', 'Snacks', 3.79, 'False', 0, 11);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10017,'Batatas Fritas Rodelas 200 G', 'Snacks', 2.59, 'False', 0, 14);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10018,'Batatas Fritas Rodelas 400 G', 'Snacks', 4.79, 'False', 6, 14);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 	
-	VALUES (10019, 'Batatas  Fritas Lisa 100 G', 'Snacks', 1.89, 'True', 0, 10);	
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10136, 'Rugged Phone Dual Sim', 'Smartphones', 189 , 'True', 7, 4);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10126, 'Smartphone Dourado 4.7 32Gb Iphone 7', 'Smartphones', 129.99, 'False', 0, 3);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10127, 'Smartphone Gold 64Gb Iphone 8', 'Smartphones', 689.99, 'True',0, 3);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10134, 'Smartphone Silver 64Gb Iphone 8', 'Smartphones', 569.99, 'False', 4, 3);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10137, 'Smartphone Sp.Grey 64 Iphone Xs', 'Smartphones', 879.99, 'False', 0, 3);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10138, 'Smartphone Verm 256Gb Iphone Xr', 'Smartphones', 659.99, 'False', 3, 3);
-INSERT INTO Product(id,name,line,price,inStock,discountId,companyId) 
-	VALUES (10140, 'Smartphone Preto Zenfone 5', 'Smartphones', 769.99, 'False', 3, 4);	
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10020,'3 Ralados P/Gratinar 200 G','Cold Meats',4.75,'True',15,0, 6);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10021,'Alheira  180G','Cold Meats',12.99,'True',50,0, 7);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10022,'Alheira  200 G','Cold Meats',5.90,'False',0,1, 7);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10023,'Alheira De Galo  180G','Cold Meats',8.49,'False',0,0, 6);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10024,'Alheira De Vinhais Igp  200 G','Cold Meats',25.99,'True',12,0, 6);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10025,'Alheira  170 G','Cold Meats',29.49,'True',1,1, 9);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10026,'Alheira Com Cogumelos 200 G','Cold Meats',15.59,'True',3,0, 9);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10027,'Alheira Com Queijo 200 G','Cold Meats',32.49,'False',0,0, 9);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10028,'Alheira De Bacalhau Emb. 200 G','Cold Meats',5.59,'True',120,0, 8);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10029,'Alheira De Mirandela Igp 200 G','Cold Meats',19.99,'True',44,0, 8);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10030,'Alheira Light 200 G','Cold Meats',1.89,'True',53,0, 8);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10100, 'Macbook Air Gold', 'Laptops', 2000.89, 'True',12, 2, 0);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10101, 'Macbook Air Gold 13', 'Laptops', 1285.99, 'True',33, 3, 3);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10102, 'Macbook Air Silver 13', 'Laptops', 1910.89, 'True',7, 0, 0);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10103, 'Macbook Air Silver', 'Laptops', 900, 'True',9, 0, 3);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10104, 'Macbook Air Spgrey', 'Laptops', 780.99, 'True',22, 5, 3);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10105, 'Macbook Air Spgrey', 'Laptops', 2500, 'True',34, 0, 3);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10106, 'Macbook Pro I5 128Gb', 'Laptops', 1000.19, 'True',44, 2, 2);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10107, 'Macbook Pro I5 8Gb', 'Laptops', 3200.92, 'False',0, 1, 2);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10108, 'Macbook Pro I5 8Gb128 Silver', 'Laptops', 1200.49,'True',14,0, 2);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10109, 'Macbook Pro Silver', 'Laptops', 1300.99, 'True',99, 7, 1);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 	
+	VALUES (10010,'Batatas Fritas Rodelas 150 G', 'Snacks', 1.99, 'True',24, 5, 12);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 	
+	VALUES (10011,'Batatas Fritas Rodelas 90 G', 'Snacks', 1.39, 'False',0, 6, 12);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10013,'Batatas Fritas Palha 200 G', 'Snacks', 2.19, 'False',0, 0, 10);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10014,'Batatas Fritas Palha 400 G', 'Snacks', 4.15, 'True',63, 7, 10);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10015,'Batatas Fritas Receita Tradicional 200 G', 'Snacks', 2.45, 'True',15, 2, 14);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10016,'Batatas Fritas Receita Tradicional 400 G', 'Snacks', 3.79, 'False',0, 0, 11);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10017,'Batatas Fritas Rodelas 200 G', 'Snacks', 2.59, 'True',44, 0, 14);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10018,'Batatas Fritas Rodelas 400 G', 'Snacks', 4.79, 'True',66, 6, 14);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 	
+	VALUES (10019, 'Batatas  Fritas Lisa 100 G', 'Snacks', 1.89, 'True',56, 0, 10);	
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10136, 'Rugged Phone Dual Sim', 'Smartphones', 189 , 'True',90, 7, 4);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10126, 'Smartphone Dourado 4.7 32Gb Iphone 7', 'Smartphones', 129.99, 'True',72, 0, 3);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10127, 'Smartphone Gold 64Gb Iphone 8', 'Smartphones', 689.99, 'True',123,0, 3);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10134, 'Smartphone Silver 64Gb Iphone 8', 'Smartphones', 569.99, 'True',145, 4, 3);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10137, 'Smartphone Sp.Grey 64 Iphone Xs', 'Smartphones', 879.99, 'True',56, 0, 3);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10138, 'Smartphone Verm 256Gb Iphone Xr', 'Smartphones', 659.99, 'True',32, 3, 3);
+INSERT INTO Product(id,name,line,price,inStock,storage,discountId,companyId) 
+	VALUES (10140, 'Smartphone Preto Zenfone 5', 'Smartphones', 769.99, 'True',11, 3, 4);	
 	
 INSERT INTO Payment(id,paymentMethod,creditCardNumber) 
 	VALUES (1, 'Paypal', 4711449666569544);
