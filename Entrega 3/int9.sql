@@ -15,6 +15,6 @@ SELECT * FROM
     WHERE L.country like 'P%' -- country starting with P
     GROUP BY L.id, P.id -- group by country and then by product -> all var's in group by bmust be in select
     ORDER BY country ASC
-) N
-WHERE N.totalQuantity > 0
-ORDER BY N.id;
+) ProductByCountry
+WHERE ProductByCountry.totalQuantity > 0
+ORDER BY ProductByCountry.id;
