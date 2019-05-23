@@ -6,5 +6,5 @@
 SELECT QP.productId, P.name, sum(QP.quantity) as quantity
 FROM QuantityofProduct QP JOIN Product P ON P.id = QP.productId
 GROUP BY QP.productId
-ORDER BY quantity ASC
-LIMIT 10;
+HAVING quantity < 10
+ORDER BY quantity ASC;
