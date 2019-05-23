@@ -11,5 +11,5 @@ SELECT * FROM
     ORDER BY PR.rating DESC
 ) ProductQuantityReview
 
-WHERE ProductQuantityReview.rating > 3
+WHERE ProductQuantityReview.rating > 3 -- could also be done like int1 with having (just to be different)
 ORDER BY ProductQuantityReview.id;
