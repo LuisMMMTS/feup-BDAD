@@ -94,7 +94,7 @@ INSERT INTO ProductDiscount(id,discount,startDate, finishDate)
 INSERT INTO ProductDiscount(id,discount,startDate, finishDate) 
 	VALUES (1, 0.1, '2018-10-18', '2019-04-20');
 INSERT INTO ProductDiscount(id,discount,startDate, finishDate) 
-	VALUES (2, 0.5, '2016-06-24', '2016-08-24');
+	VALUES (2, 0.5, '2017-06-24', '2019-08-24');
 INSERT INTO ProductDiscount(id,discount,startDate, finishDate) 
 	VALUES (3, 0.7, '2019-01-01', '2019-02-15');
 INSERT INTO ProductDiscount(id,discount,startDate, finishDate) 
@@ -201,6 +201,8 @@ INSERT INTO Payment(id,paymentMethod,creditCardNumber)
 	VALUES (9, 'ShopCard', NULL);
 INSERT INTO Payment(id,paymentMethod,creditCardNumber) 
 	VALUES (10, 'Visa', 4443439882621377);
+INSERT INTO Payment(id,paymentMethod,creditCardNumber) 
+	VALUES (11, 'Visa', 5498123156156123);	
 	
 INSERT INTO Cart(id,paymentId) 
 	VALUES (200, 1);
@@ -222,6 +224,8 @@ INSERT INTO Cart(id,paymentId)
 	VALUES (208, 9);
 INSERT INTO Cart(id,paymentId) 	
 	VALUES (209, 10);
+INSERT INTO Cart(id,paymentId) 	
+	VALUES (210, 11);
 
 INSERT INTO Orders(id,orderDate, customerId, cartId) 
 	VALUES (20, '2017-1-23', 123514, 206);
@@ -230,7 +234,7 @@ INSERT INTO Orders(id,orderDate, customerId, cartId)
 INSERT INTO Orders(id,orderDate, customerId, cartId) 
 	VALUES (22, '2017-1-9', 123519, 208);
 INSERT INTO Orders(id,orderDate, customerId, cartId) 
-	VALUES (23, '2017-8-18', 123518, 201);	
+	VALUES (23, '2016-7-18', 123518, 202);	
 INSERT INTO Orders(id,orderDate, customerId, cartId) 
 	VALUES (24, '2019-2-15', 123515, 205);	
 INSERT INTO Orders(id,orderDate, customerId, cartId) 
@@ -244,7 +248,11 @@ INSERT INTO Orders(id,orderDate, customerId, cartId)
 INSERT INTO Orders(id,orderDate, customerId, cartId) 
 	VALUES (29, '2014-3-22', 123517, 203);	
 INSERT INTO Orders(id,orderDate, customerId, cartId) 
-	VALUES (30, '2016-12-15', 123519, 201);		
+	VALUES (30, '2016-12-15', 123519, 201);	
+INSERT INTO Orders(id,orderDate, customerId, cartId) 
+	VALUES (31, '2018-12-15', 123512, 210);
+INSERT INTO Orders(id,orderDate, customerId, cartId) 
+	VALUES (32, '2018-7-18', 123518, 202);		
 
 INSERT INTO Location(id, postalCode, country) 
 	VALUES (1001, '3540-307', 'Portugal');
@@ -333,9 +341,13 @@ INSERT INTO QuantityOfProduct(productId, orderId, quantity)
 INSERT INTO QuantityOfProduct(productId, orderId, quantity) 
 	VALUES (10029, 28, 1);
 INSERT INTO QuantityOfProduct(productId, orderId, quantity) 
-	VALUES (10013, 29, 3);
+	VALUES (10022, 29, 3);
 INSERT INTO QuantityOfProduct(productId, orderId, quantity) 
 	VALUES (10016, 30, 1);
+INSERT INTO QuantityOfProduct(productId, orderId, quantity) 
+	VALUES (10022, 31, 2);
+INSERT INTO QuantityOfProduct(productId, orderId, quantity) 
+	VALUES (10100, 32, 2);	
 	
 INSERT INTO ProductReview(customerId, productId, rating, date) 
 	VALUES (123514, 10017, 3, '2017-5-16');	
@@ -348,4 +360,8 @@ INSERT INTO ProductReview(customerId, productId, rating, date)
 INSERT INTO ProductReview(customerId, productId, rating, date) 
 	VALUES (123515, 10018, 2, '2017-12-24');
 INSERT INTO ProductReview(customerId, productId, rating, date) 
-	VALUES (123516, 10108, 4, '2018-7-16');		
+	VALUES (123516, 10108, 4, '2018-7-16');	
+INSERT INTO ProductReview(customerId, productId, rating, date) 
+	VALUES (123519, 10016, 4, '2017-11-25');	
+INSERT INTO ProductReview(customerId, productId, rating, date) 
+	VALUES (123518, 10016, 5, '2019-5-22');		

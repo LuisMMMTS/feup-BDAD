@@ -2,7 +2,7 @@
 .headers    on
 .nullvalue  NULL
 
---Paises onde sao feitas mais compras, valor dessas compras, numero de clientes
+--Paises onde sao feitas mais compras, numero de orders
 --Ex(Portugal, 50.000$ vendas, 250 clientes)
 SELECT L.country, count(O.id) as numOrders
 FROM Location L JOIN CustomerLocation CL ON L.id = CL.locationId 
