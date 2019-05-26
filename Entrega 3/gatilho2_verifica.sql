@@ -1,6 +1,7 @@
 .mode       columns
 .headers    on
 .nullvalue  NULL
+PRAGMA foreign_keys = on;
 
 --atenção verificar que TRIGGER 1 foi lido, senão apenas o cart 206 será atualizado.
 

@@ -1,6 +1,7 @@
 .mode columns
 .headers on
 .nullvalue nullvalue
+PRAGMA foreign_keys = on;
 
 SELECT name, storage, inStock, almostSoldOut FROM Product
 WHERE Product.Id=10020 OR Product.Id=10021;

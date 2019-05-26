@@ -1,6 +1,7 @@
 .mode columns
 .headers on
 .nullvalue nullvalue
+PRAGMA foreign_keys = on;
 
 --update order total price
 

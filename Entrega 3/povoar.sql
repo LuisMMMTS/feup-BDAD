@@ -350,17 +350,17 @@ INSERT INTO QuantityOfProduct(productId, orderId, quantity)
 	VALUES (10100, 32, 2);	
 	
 INSERT INTO ProductReview(customerId, productId, rating, date) 
-	VALUES (123514, 10017, 3, '2017-5-16');	
+	VALUES (123514, 10024, 3, '2017-5-16');	
 INSERT INTO ProductReview(customerId, productId, rating, date) 
-	VALUES (123521, 10105, 4, '2018-8-18');
+	VALUES (123512, 10022, 4, '2018-8-18');
 INSERT INTO ProductReview(customerId, productId, rating, date) 
-	VALUES (123518, 10137, 1, '2016-11-21');		
+	VALUES (123518, 10126, 1, '2016-11-21');		
 INSERT INTO ProductReview(customerId, productId, rating, date) 
-	VALUES (123515, 10025, 5, '2019-9-9');	
+	VALUES (123515, 10105, 5, '2019-9-9');	
 INSERT INTO ProductReview(customerId, productId, rating, date) 
-	VALUES (123515, 10018, 2, '2017-12-24');
+	VALUES (123515, 10136, 2, '2017-12-24');
 INSERT INTO ProductReview(customerId, productId, rating, date) 
-	VALUES (123516, 10108, 4, '2018-7-16');	
+	VALUES (123516, 10029, 4, '2018-7-16');	
 INSERT INTO ProductReview(customerId, productId, rating, date) 
 	VALUES (123519, 10016, 4, '2017-11-25');	
 INSERT INTO ProductReview(customerId, productId, rating, date) 
