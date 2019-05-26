@@ -4,20 +4,20 @@
 
 --top 10 costumers com maior taxa review/compra (C.id, C.name, nºcompras, nºreview, taxa)
 
-SELECT id, cName, nOrders, nReviews, nOrders/nReviews AS ordersReviewRate
-FROM
+SELECT customerId, cName, nProducts, nReviews, (nProducts/nReviews) as productReviewRate FROM
  (
-    SELECT C.id AS id, CD.name AS cName, count(O.id) AS nOrders, 
+    SELECT C.id as customerId, CD.name as cName, count(QP.productId) as nProducts
     FROM Customer C JOIN CustomerDetails CD ON C.ssn = CD.ssn
-                    JOIN Orders O ON id = O.customerId
-    GROUP BY id
-    ORDER BY id ASC
+                    JOIN Orders O ON C.id = O.customerId
+					JOIN QuantityofProduct QP ON O.id = QP.orderId
+    GROUP BY customerId
+    ORDER BY customerId ASC
  ) N
 
-JOIN ON N.id = M.id
+JOIN
 
  (
-    SELECT C.id AS id, CD.name AS cName, count(PR.id) AS nReviews
+    SELECT C.id as id, CD.name as customerName, count(PR.customerId) as nReviews
     FROM Customer C JOIN CustomerDetails CD ON C.ssn = CD.ssn
                     JOIN ProductReview PR ON PR.customerId = id
     
@@ -26,6 +26,8 @@ JOIN ON N.id = M.id
 
  ) M
 
-WHERE N.nOrders > 0
-ORDER BY N.id;
+GROUP BY customerId
+HAVING N.nProducts > 0
+ORDER BY productReviewRate DESC
+LIMIT 10;
 
