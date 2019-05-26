@@ -8,12 +8,12 @@ CREATE TRIGGER calculateOrderPrice
 AFTER INSERT ON QuantityOfProduct
 BEGIN
 UPDATE Orders
-SET totalPrice = totalPrice + New.quantity * (
+SET totalPrice = totalPrice + round(New.quantity * (
     SELECT Product.price
         FROM Product 
         WHERE Product.id = New.productId
-        )*0.01*(
+        )*(1-(
         SELECT ProductDiscount.discount FROM ProductDiscount 
-        WHERE ProductDiscount.id=(SELECT Product.discountId FROM Product WHERE Product.id = New.productId))
-WHERE Orders.Id=New.productId;
+        WHERE ProductDiscount.id=(SELECT Product.discountId FROM Product WHERE Product.id = New.productId))),2)
+WHERE Orders.Id=New.orderID;
 END;
