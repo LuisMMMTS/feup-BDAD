@@ -7,7 +7,7 @@
 > **Project developed by:**\
 > Martim Silva ([motapinto](https://github.com/motapinto))\
 > Luís Silva ([LuisMMMTS](https://github.com/LuisMMMTS))\
-> Luís Silva ([CMGS5](https://github.com/CMGS5))
+> Carlos Soeiro ([CMGS5](https://github.com/CMGS5))
 >
 > **Any problems?**\
 > Start an Issue please.
